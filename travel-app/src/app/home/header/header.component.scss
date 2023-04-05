@@ -1,0 +1,57 @@
+header {
+  position: relative;
+
+  .image {
+    width: 100%;
+    display: block;
+  }
+
+  .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .title {
+      margin-top: -10px;
+      color: white;
+      font-size: 70px;
+      text-shadow: 2px 2px 2px black;
+      font-family: "Lucida Grande", sans-serif;
+      margin-bottom: 18px;
+      border-bottom: 4px solid #ffffff;
+    }
+
+    .anteTitle {
+      color: white;
+      font-size: 24px;
+      font-family: "Lucida Grande", sans-serif;
+      text-shadow: 2px 2px 2px black;
+    }
+
+    .subtitle {
+      color: white;
+      font-size: 20px;
+      text-align: center;
+      word-break: break-word;
+      max-width: 35%;
+      font-family: "Lucida Grande", sans-serif;
+      margin-bottom: 70px;
+      text-shadow: 2px 2px 2px black;
+    }
+
+    .button {
+      background-color: rgb(228, 148, 19);
+      color: black;
+      padding: 10px 20px;
+      border-radius: 10px;
+      font-size: 1.5em;
+      font-family: "Lucida Grande", sans-serif;
+    }
+  }
+}
