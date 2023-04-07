@@ -10,7 +10,7 @@ export class HeaderComponent {
   subtitle =
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore ';
   imagePath =
-    'https://www.veloquebecvoyages.com/wp-content/uploads/2022/11/algarve-9jours-liberte-a-velo-banniere-1920x630-1-scaled.jpg  ';
+    'https://yocto.scrolller.com/part-2-the-world-needs-more-desktop-wallpapers-8p83s1oiwj.jpg';
 
   @Input()
   title!: string;
