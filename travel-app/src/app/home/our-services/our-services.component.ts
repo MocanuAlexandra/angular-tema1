@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { SingleServiceModel } from 'src/app/models/service-model';
 
 @Component({
   selector: 'app-our-services',
@@ -8,7 +9,7 @@ import { Component } from '@angular/core';
 export class OurServicesComponent {
   title = 'OUR SERVICES';
 
-  arrayOfServices = [
+  arrayOfServices: SingleServiceModel[] = [
     {
       title: 'TRAVEL',
       subTitle: 'Subtitle',

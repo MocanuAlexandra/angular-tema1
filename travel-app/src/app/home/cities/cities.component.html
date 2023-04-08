@@ -1,0 +1,30 @@
+<div>
+  <div class="pagination-content">
+    <div class="pagination">
+      <button
+        class="pagination-button"
+        (click)="previous()"
+        [disabled]="disablePrevious"
+      >
+        ❮
+      </button>
+      <button
+        class="pagination-button"
+        (click)="next()"
+        [disabled]="disableNext"
+      >
+        ❯
+      </button>
+    </div>
+    <div class="content">
+      <h1 class="title">{{ title }}</h1>
+      <div class="cities-list">
+        <div *ngFor="let elem of slicedArrayOfCities">
+          <app-city
+            [city]="elem" (cityEmitter)="onCitySelected($event)"
+          ></app-city>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

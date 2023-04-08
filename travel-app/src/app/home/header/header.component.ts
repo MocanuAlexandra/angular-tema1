@@ -12,6 +12,5 @@ export class HeaderComponent {
   imagePath =
     'https://yocto.scrolller.com/part-2-the-world-needs-more-desktop-wallpapers-8p83s1oiwj.jpg';
 
-  @Input()
-  title!: string;
+    @Input() title!: string;
 }
