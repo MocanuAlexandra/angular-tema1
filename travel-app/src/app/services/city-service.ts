@@ -11,10 +11,12 @@ export class CityService {
 
   constructor() { }
 
+  // Setter
   setSelectedCity(city: CityModel) {
     this._selectedCity = city;
   }
 
+  // Getter
   get selectedCity() {
     return this._selectedCity;
   }

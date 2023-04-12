@@ -1,0 +1,37 @@
+.content {
+    display: grid;
+    grid-template-columns: 550px 550px;
+    column-gap: 50px;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+  
+  .city-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    font-size: 24px;
+  }
+  
+  h2 {
+    font-size: 48px;
+    text-align: center;
+    color: #45a289;
+  }
+  
+  .city-description {
+    font-size: 28px;
+    color: rgb(186, 182, 182);
+    text-align: center;
+  }
+  
+  img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  

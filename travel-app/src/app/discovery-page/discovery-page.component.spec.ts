@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CityComponent } from './city.component';
+import { DiscoveryPageComponent } from './discovery-page.component';
 
-describe('CityComponent', () => {
-  let component: CityComponent;
-  let fixture: ComponentFixture<CityComponent>;
+describe('DiscoveryPageComponent', () => {
+  let component: DiscoveryPageComponent;
+  let fixture: ComponentFixture<DiscoveryPageComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CityComponent ]
+      declarations: [ DiscoveryPageComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(CityComponent);
+    fixture = TestBed.createComponent(DiscoveryPageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -2,11 +2,12 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { OurServicesComponent } from './home/our-services/our-services.component';
 import { HeaderComponent } from './home/header/header.component';
+import { DiscoveryPageComponent } from './discovery-page/discovery-page.component';
 
 const routes: Routes = [
   {
-    path: 'home',
-    loadChildren: () => import('./home/home.module').then((m) => m.HomeModule),
+    path: 'discovery',
+    component: DiscoveryPageComponent,
   },
   {
     path: 'our-services',

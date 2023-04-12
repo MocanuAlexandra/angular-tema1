@@ -9,8 +9,7 @@ import { OurServicesComponent } from './our-services/our-services.component';
 import { SingleServiceComponent } from './our-services/single-service/single-service.component';
 import { SearchComponent } from './search/search.component';
 import { CitiesComponent } from './cities/cities.component';
-import { CityComponent } from './cities/city/city.component';
-
+import { CityComponent } from './cities/city/city-card.component';
 
 @NgModule({
   declarations: [
