@@ -1,5 +1,12 @@
 <div class="content">
   <h2 class="title">{{ title }}</h2>
-  <input type="text" placeholder="{{ placeholder }}" />
-  <!-- [(ngModel)]="searchTerm"  /> -->
+  <input
+    list="citiesList"
+    placeholder="{{ placeholder }}"
+    [(ngModel)]="searchedCityName"
+    (keyup.enter)="onSubmitSearch()"
+  />
+  <datalist id="citiesList">
+    <option *ngFor="let city of arrayOfCities">{{ city.name }}</option>
+  </datalist>
 </div>

@@ -5,12 +5,16 @@ import { HeaderComponent } from './home/header/header.component';
 
 const routes: Routes = [
   {
-    path:'our-services',
-    component: OurServicesComponent
+    path: 'home',
+    loadChildren: () => import('./home/home.module').then((m) => m.HomeModule),
   },
   {
-    path:'header',
-    component: HeaderComponent
+    path: 'our-services',
+    component: OurServicesComponent,
+  },
+  {
+    path: 'header',
+    component: HeaderComponent,
   },
   {
     path: '',

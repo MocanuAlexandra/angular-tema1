@@ -1,4 +1,4 @@
-<app-header [title]="headerTitle"></app-header>
-<app-search></app-search>
+<app-header [selectedCity]="displayedCityOnHeader"></app-header>
+<app-search [arrayOfCities]="arrayOfCities" (searchedCityEmitter)="onSelectedCity($event)"></app-search>
 <app-our-services></app-our-services>
-<app-cities (cityTitleSelected)="onCityTitleSelected($event)"></app-cities>
+<app-cities [arrayOfCities]="arrayOfCities" (citySelectedEmitter)="onSelectedCity($event)"></app-cities>
